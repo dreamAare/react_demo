@@ -23,6 +23,7 @@ export default class Myform extends React.Component{
           <input type="text" onChange={this.handleChange} value={this.state.value}/>
           <button type="submit">提交</button>
         </form> */}
+        
         {/* 非受控组件，通过creatRef方法操作 */}
         <form ref={ this.myForm } onSubmit={this.handleSubmit}>
           <input type="text" name="user"/>
